@@ -1,7 +1,7 @@
 $(document).ready(function(){
     require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
         esriConfig.apiKey = "AAPKf56f41c3c3fe4987b2f4c84072150f20sI3IXY6IaRdrxOP0FD5wRpYbFqNbA8y8g9PtOAn8D8QEPwmKZb1Mdp0sexb1frQo";
-        
+
         const map = new Map({
             basemap: "arcgis-topographic" // Basemap layer service
           });
