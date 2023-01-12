@@ -8,34 +8,46 @@ $(document).ready(function(){
     
         const view = new MapView({
         map: map,
-        center: [-118.805, 34.027], // Longitude, latitude
-        zoom: 13, // Zoom level
+        center: [-92.729362, 41.746952], // Longitude, latitude
+        zoom: 15, // Zoom level
         container: "viewDiv" // Div element
         });
     });
 
+    $("#viewDiv").hide();
+
     $("#home").click(function(){
         $(".texts").hide();
+        $("#viewDiv").hide();
+
         $("#home_text").show()
     });
 
     $("#events").click(function(){
         $(".texts").hide();
+
         $("#events_text").show()
+        $("#viewDiv").show();
     });
 
     $("#schedule").click(function(){
         $(".texts").hide();
+        $("#viewDiv").hide();
+
         $("#schedule_text").show()
     });
 
     $("#rankings").click(function(){
         $(".texts").hide();
+        $("#viewDiv").hide();
+
         $("#rankings_text").show()
     });
 
     $("#my_events").click(function(){
         $(".texts").hide();
+        $("#viewDiv").hide();
+
         $("#my_events_text").show()
     });
   });

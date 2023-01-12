@@ -1,3 +1,12 @@
+html,
+body,
+#viewDiv {
+    padding: 5px;
+    margin: 0;
+    height: 85%;
+    width: 85%;
+}
+
 #logo {
     position: absolute;
     width: 175px;
@@ -7,12 +16,7 @@
 }
 
 .texts {
+    padding: 0;
     display: none;
 }
 
-#viewDiv {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-  }
