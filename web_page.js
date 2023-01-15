@@ -14,6 +14,7 @@ $(document).ready(function(){
         });
     });
 
+    /*
     $("#viewDiv").hide();
 
     $("#home").click(function(){
@@ -50,4 +51,5 @@ $(document).ready(function(){
 
         $("#my_events_text").show()
     });
+    */
   });
